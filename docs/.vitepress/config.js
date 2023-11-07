@@ -4,12 +4,12 @@ import { nav,sidebar} from "./configs"
      outDir: 'dist',
      lang: 'zh-CN',
 
-     title: 'CT',
+     title: '代码时间',
      description: '',
 
      themeConfig: {
          logo: '../images/codetime.jpg',
-         siteTitle: "CT",
+         siteTitle: "CodeTime",
          nav,
          sidebar,
          //页脚

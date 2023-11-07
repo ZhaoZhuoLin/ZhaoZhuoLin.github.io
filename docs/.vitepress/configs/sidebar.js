@@ -1,31 +1,25 @@
 export const sidebar = [{
-    text: 'Git基础',
+    text: 'Vue专栏',
     collapsed: true,
     items: [{
-        text: '基础命令',
-        link: '/node'
-    },{
-        text: '恢复上一次的修改',
-        link: '/node'
+        text: '手写vue2.0源码-响应式数据原理',
+        link: '/vue/readctive'
     }]
 }, {
     text: 'Node',
-    collapsed: true,
+    collapsed: false,
     items: [{
         text: 'Node命令',
         link: '/node'
     }]
 }, {
     text: '计算机网络',
-    collapsed: true,
+    collapsed: false,
     items: [{
         text: 'Internet',
-        link: '/inter/Internet'
-    }, {
-        text: '协议',
-        link: '/inter/agreement'
+        link: '/计算机网络/Internet'
     }, {
         text: 'TCP/IP',
-        link: '/inter/agreement'
+        link: '/计算机网络/agreement'
     }]
 }]
