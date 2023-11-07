@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /node
+      link: /vue/readctive
 features:
   - icon: 📝
     title: 编程专栏

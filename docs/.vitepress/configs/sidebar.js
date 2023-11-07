@@ -10,16 +10,16 @@ export const sidebar = [{
     collapsed: false,
     items: [{
         text: 'Node命令',
-        link: '/node'
+        link: '/node/index'
     }]
 }, {
     text: '计算机网络',
     collapsed: false,
     items: [{
         text: 'Internet',
-        link: '/计算机网络/Internet'
+        link: '/network/Internet'
     }, {
         text: 'TCP/IP',
-        link: '/计算机网络/agreement'
+        link: '/network/agreement'
     }]
 }]
