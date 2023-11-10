@@ -1,0 +1,47 @@
+# 函数式组件
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .native {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        function Welcome(props) {
+            console.log(this);//此处的this=undefined，babal编译后开启了严格模式
+            return <h1>hello,{props.name}</h1>
+        }
+        ReactDOM.render(
+            (
+                <div>
+                    <Welcome name="React1" />
+                    <Welcome name="React2" />
+                    <Welcome name="React3" />
+                </div>
+            ),
+            document.getElementById("root")
+        )
+        /**
+         * 执行ReactDOM.render发生了什么
+         * 1.React解析组件标签，找到了Welcom组件
+         * 2.发现组件是函数式定义的，调用函数，将返回的虚拟DOM转为真实DOM，随后呈现页面
+        */
+    </script>
+</body>
+
+</html>
+```

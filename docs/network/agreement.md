@@ -1,4 +1,4 @@
-## 协议
+# 协议
 网络协议为计算机网络中进行数据交换而建立的规则、标准或约定的集合。
 ### 层次划分
 为了使不同计算机厂家生产的计算机能够相互通信，以便在更大的范围内建立计算机网络，**国际标准化组织（ISO）在1978年提出了“开放系统互联参考模型”，即著名的OSI/RM模型（Open System Interconnection/Reference Model）。**== 它将计算机网络体系结构的通信协议划分为七层，自下而上依次为：物理层（Physics Layer）、数据链路层（Data Link Layer）、网络层（Network Layer）、传输层（Transport Layer）、会话层（Session Layer）、表示层（Presentation Layer）、应用层（Application Layer）。

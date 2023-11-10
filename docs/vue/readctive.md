@@ -1,4 +1,4 @@
-## 手写vue2.0源码-响应式数据原理
+# 手写vue2.0源码-响应式数据原理
 
 ## Vue实例化
 vue实例化的过程,使用vue操作符,并传入options(选项)
@@ -14,7 +14,6 @@ var vm = new Vue({
     }
 })
 ```
-
 ## Vue构造函数
 ``` Javascript
 ./src/index.js
