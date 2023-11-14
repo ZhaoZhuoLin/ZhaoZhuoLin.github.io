@@ -15,14 +15,14 @@ hero:
       link: /vue/readctive
     - theme: alt
       text: 资源导航
-      link: /vue/readctive
+      link: /navigation/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 技术视野
+    details: 深度和广度。
+  - title: 编程工具
+    details: 归纳方式方式,解决具体需求。
+  - title: 备忘录
+    details: 遇到的问题做一份备忘录。
 ---
 

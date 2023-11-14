@@ -1,7 +1,6 @@
-export default [
-    {
+export default [{
         text: '浏览器',
-        collapsed: false,
+        collapsed: true,
         items: [{
             text: '浏览器事件循环',
             link: '/browser/index'
@@ -9,14 +8,22 @@ export default [
     },
     {
         text: 'Webpack',
-        collapsed: false,
+        collapsed: true,
         items: [{
             text: '理解打包流程',
             link: '/webpack/pack'
         }, ]
-    },{
+    }, {
+        text: 'JavaScript',
+        collapsed: true,
+        items: []
+    }, {
+        text: 'TavaScript',
+        collapsed: true,
+        items: []
+    }, {
         text: 'Vue',
-        collapsed: false,
+        collapsed: true,
         items: [{
             text: '响应式数据原理',
             link: '/vue/readctive'
@@ -24,9 +31,8 @@ export default [
     },
     {
         text: 'React',
-        collapsed: false,
-        items: [
-            {
+        collapsed: true,
+        items: [{
                 text: 'What React',
                 link: '/react/index'
             },
@@ -40,7 +46,6 @@ export default [
             }
         ]
     },
-    
     {
         text: 'Node',
         collapsed: true,
@@ -61,5 +66,13 @@ export default [
                 link: '/network/internet'
             },
         ]
-    }
+    },
+    {
+        text: 'Git',
+        collapsed: true,
+        items: [{
+            text: 'node包管理',
+            link: '/node/index'
+        }]
+    },
 ]
