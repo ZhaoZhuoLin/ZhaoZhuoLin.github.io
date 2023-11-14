@@ -1,5 +1,13 @@
 export default [
     {
+        text: '浏览器',
+        collapsed: false,
+        items: [{
+            text: '浏览器事件循环',
+            link: '/browser/index'
+        }, ]
+    },
+    {
         text: 'Webpack',
         collapsed: false,
         items: [{

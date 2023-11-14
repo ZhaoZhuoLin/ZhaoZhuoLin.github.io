@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as p}from"./chunks/framework.b814b613.js";const m=JSON.parse('{"title":"node包管理工具","description":"","frontmatter":{},"headers":[],"relativePath":"node/index.md","filePath":"node/index.md"}'),l={name:"node/index.md"},o=p("",13),e=[o];function c(r,t,y,E,i,F){return n(),a("div",null,e)}const C=s(l,[["render",c]]);export{m as __pageData,C as default};
