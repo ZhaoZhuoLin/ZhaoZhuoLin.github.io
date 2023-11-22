@@ -5,7 +5,7 @@ import nav from './nav'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  base: '/',
+  base: '/codetime',
   title: "CT",
   description: "代码时间",
   themeConfig: {
