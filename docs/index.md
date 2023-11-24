@@ -1,9 +1,25 @@
-# 简介
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-这里是代码时间的个人博客，是一名前端开发。博客里面大部分是技术相关的文章，页面左侧是目录。
+hero:
+  name: Welcome Back!👋
+  text: "Record work and learning"
+  tagline: Sustained keep
+  image:
+    src: /images/codetime.jpg
+    alt: 
+  actions:
+    - theme: brand
+      text: 开始阅读
+      link: /network/agreement
 
-如果有问题或者建议，欢迎在[Issues](https://github.com/jzplp/jzplp.github.io/issues)中提出。
+features:
+  - title: 技术视野
+    details: 深度和广度。
+  - title: 编程工具
+    details: 归纳方式方式,解决具体需求。
+  - title: 备忘录
+    details: 遇到的问题做一份备忘录。
+---
 
- 
-## 备注
-* 笔记，包含部分主观意见，不一定与其他人意见相似。请谅解。
