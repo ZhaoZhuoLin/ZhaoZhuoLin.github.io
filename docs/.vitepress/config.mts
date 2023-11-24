@@ -1,28 +1,28 @@
 import { defineConfig } from 'vitepress'
-import sidebar  from './sidebar'
-import nav from './nav'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-
-  base: '/codetime',
-  title: "CT",
+  title: "代码时间",
   description: "代码时间",
   themeConfig: {
-    logo: '../images/codetime.jpg',
     // https://vitepress.dev/reference/default-theme-config
-    nav,
-    sidebar,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    nav: [
+      { text: '主页', link: '/' },
     ],
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
-    },
-    footer: {
-      message: '专业前端内容网站',
-      copyright: 'Copyright © 2023-present CodeTime'
-    },
+
+    sidebar: [
+      
+      {
+        text: '网络',
+        items: [
+          { text: '常用协议', link: '/network/agreement' },
+          { text: '网络', link: '/network/Internet' }
+        ]
+      }
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/ZhaoZhuoLin' }
+    ]
   }
 })

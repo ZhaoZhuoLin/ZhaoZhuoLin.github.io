@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as i,Q as t}from"./chunks/framework.b814b613.js";const k=JSON.parse('{"title":"理解打包流程","description":"","frontmatter":{},"headers":[],"relativePath":"webpack/pack.md","filePath":"webpack/pack.md"}'),l={name:"webpack/pack.md"},r=t("",7),c=[r];function o(p,s,u,n,h,d){return e(),i("div",null,c)}const b=a(l,[["render",o]]);export{k as __pageData,b as default};

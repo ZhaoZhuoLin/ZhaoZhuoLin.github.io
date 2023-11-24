@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as e,Q as n}from"./chunks/framework.b814b613.js";const b=JSON.parse('{"title":"React学习","description":"","frontmatter":{},"headers":[],"relativePath":"react/index.md","filePath":"react/index.md"}'),l={name:"react/index.md"},p=n("",31),t=[p];function o(c,i,r,d,h,u){return s(),e("div",null,t)}const g=a(l,[["render",o]]);export{b as __pageData,g as default};

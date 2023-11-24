@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.b814b613.js";const g=JSON.parse('{"title":"state","description":"","frontmatter":{},"headers":[],"relativePath":"react/state.md","filePath":"react/state.md"}'),p={name:"react/state.md"},o=l("",2),t=[o];function e(c,r,E,y,i,F){return n(),a("div",null,t)}const u=s(p,[["render",e]]);export{g as __pageData,u as default};
