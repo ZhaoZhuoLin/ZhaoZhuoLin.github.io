@@ -3,5 +3,6 @@
         "other": "on",
         "comments": true,
         "strings": "off"
-    }
+    },
+    "editor.inlineSuggest.showToolbar": "onHover"
 }
