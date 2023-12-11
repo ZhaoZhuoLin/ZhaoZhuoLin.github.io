@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predev":"node predev.js",
     "dev": "vitepress dev docs",
-    "postdev":"node postdev.js",
-    "docs:build": "vitepress build docs",
+    "build": "vitepress build docs",
+    "postbuild":"cmd /c start pages.push.bat",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],

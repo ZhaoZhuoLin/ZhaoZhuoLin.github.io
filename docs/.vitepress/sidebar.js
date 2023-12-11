@@ -33,11 +33,14 @@ export default [{
             link: '/node/渲染模式'
         },
         {
-            text: '推荐使用库',
-            link: '/node/推荐使用库'
-        },{
             text: '常用的fs操作',
             link: '/node/常用的fs操作'
+        },{
+            text: '插件扩展',
+            link: '/node/插件扩展'
+        },{
+            text: 'PM2',
+            link: '/node/PM2'
         }]
     },
     {
