@@ -1,20 +1,7 @@
-export default [
-    {
+export default [{
         text: '资源导航',
-        id:6,
+        id: 6,
         link: '/navigation/index'
-    },
-    {
-        text: '网络',
-        items: [{
-                text: 'ISO七层框架',
-                link: '/network/agreement'
-            },
-            {
-                text: 'Internet和互联网',
-                link: '/network/Internet'
-            },
-        ]
     },
     {
         text: '浏览器',
@@ -28,12 +15,45 @@ export default [
         items: [{
             text: 'npm包管理工具',
             link: '/node/indexpackage'
-        },{
+        }, {
             text: '运行环境',
             link: '/node/runnode'
-        },{
+        }, {
             text: '包的安装机制',
             link: '/node/npm'
+        },{
+            text: '启动npm run',
+            link: '/node/run'
+        },{
+            text: '发布一个npm包',
+            link: '/node/publicnpm'
+        },
+        {
+            text: '渲染模式',
+            link: '/node/渲染模式'
+        },
+        {
+            text: '推荐使用库',
+            link: '/node/推荐使用库'
+        },{
+            text: '常用的fs操作',
+            link: '/node/常用的fs操作'
+        }]
+    },
+    {
+        text: '模块化打包工具',
+        items: [{
+            text: 'webpack',
+            link: '/module/webpack'
+        }, {
+            text: 'rollup',
+            link: '/module/rollup'
+        }, {
+            text: 'esbuild',
+            link: '/module/esbuild'
+        }, {
+            text: 'vite',
+            link: '/module/vite'
         }]
     },
     {

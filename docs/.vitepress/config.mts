@@ -6,7 +6,7 @@ export default defineConfig({
   title: "代码时间",
   description: "代码时间",
   themeConfig: {
-    logo:"../public/codetime.jpg",
+    logo:"./codetime.jpg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },

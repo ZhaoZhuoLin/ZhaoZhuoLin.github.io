@@ -28,7 +28,13 @@ export const NAV_DATA = [
         ],
     },{
         title: 'GIS开发工具',
-        items: [{
+        items: [
+            {                
+                title: '在线省市县乡村五级Shp下载',
+                desc: '在线省市县乡村五级Shp下载',
+                link: 'https://map.ruiduobao.com/',
+            },
+            {
                 icon: 'http://book.dev.91weather.com/uploads/images/cover_book/2022-05/thumbs-440-250/hs.jpg',
                 title: 'QuickEarth',
                 desc: '香辑科技',
@@ -53,7 +59,6 @@ export const NAV_DATA = [
                 link: 'https://www.hightopo.com/demos/cn-index.html',
             },
             {
-                icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjM1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjM1MiIgd2lkdGg9IjM1MiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzEiPgogICA8cGF0aCBzdHJva2U9Im51bGwiIGlkPSJzdmdfMiIgZD0ibTQ2LjIyMDk5OSwyMTAuNjQ4Yy0xLjQyNiwtNy45NDMgLTIuMTY0LC0xNi4xNTQgLTIuMTY0LC0yNC41MjFjMCwtNzQuOTg4IDU5LjQ5MywtMTM1Ljc4OSAxMzIuOTEsLTEzNS43ODljNzMuMzkyLDAgMTMyLjg4OCw2MC44MDEgMTMyLjg4OCwxMzUuNzg5YzAsMzMuODk2IC0xMi4xNzYsNjQuODg0IC0zMi4yNDMsODguNjY3YzI2LjA0NCwtMjUuMjg0IDQyLjIwMiwtNjAuNjUzIDQyLjIwMiwtOTkuNzgyYzAsLTc2LjgzNSAtNjIuMjczLC0xMzkuMTA2IC0xMzkuMTA4LC0xMzkuMTA2Yy03Ni44MzQsMCAtMTM5LjEwOCw2Mi4yNzEgLTEzOS4xMDgsMTM5LjEwNmMtMC4wMDEsMTIuMzIxIDEuNTk4LDI0LjI3MSA0LjYyMywzNS42MzZ6IiBmaWxsPSIjNDA5RUZGIi8+CiAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgaWQ9InN2Z18zIiBkPSJtMjYzLjEyMzk5OSw3Ni41NTVjMCwwIC0yMy4zNjcsODEuMTY4IC0xMTMuOTU2LDE0NC43MDRjMCwwIDk3LjU1OSwtNTYuMTYxIDEyNC4yMDQsLTEzOC45NTlsLTEwLjI0OCwtNS43NDV6IiBmaWxsPSIjNDA5RUZGIi8+CiAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgaWQ9InN2Z180IiBkPSJtMjA4LjQwMTk5OSw0OS44MDdjMCwwIC05LjUzMyw2My4zMzUgLTcxLjYzNywxMTEuNjA0YzAsMCA3Mi42NTksLTQwLjk5MiA4MC44NTgsLTEwNi45ODhsLTkuMjIxLC00LjYxNnoiIGZpbGw9IiM0MDlFRkYiLz4KICAgPHBhdGggc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzUiIGQ9Im0yOTguNzg1OTk5LDEyMC4wMDZjMCwwIC0xMS44ODgsNjIuNzE2IC04Mi44MDUsMTEzLjEzOGMwLDAgNjkuNjksLTQwLjU4MyA4OC45NTQsLTk4Ljc5MmwtNi4xNDksLTE0LjM0NnoiIGZpbGw9IiM0MDlFRkYiLz4KICAgPHBhdGggc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzYiIGQ9Im0xMTUuOTYxOTk5LDc5LjQyN2MwLDAgMTMxLjc5LDE0Ljk1OSAxNzcuOTAzLDEzOS4xNjZjMC4wMDEsMCAtMTguMjQsLTEzOS4zNzIgLTE3Ny45MDMsLTEzOS4xNjZ6IiBmaWxsPSIjNDA5RUZGIi8+CiAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgaWQ9InN2Z183IiBkPSJtNzkuODg5OTk5LDk2LjY0NmMwLDAgMTI4LjcxNCw1My4wODQgMTkzLjQ4MSwxNjkuOTA2YzAuMDAxLDAgLTMzLjYxNSwtMTMxLjk5MyAtMTkzLjQ4MSwtMTY5LjkwNnoiIGZpbGw9IiM0MDlFRkYiLz4KICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzgiPgogICAgPHBhdGggc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzkiIGQ9Im0xNzUuMDAxOTk5LDMzNi40NDRjLTg5LjAyMSwwIC0xNjEuNDQ0LC03Mi40MjQgLTE2MS40NDQsLTE2MS40NDJjMCwtODkuMDIxIDcyLjQyMywtMTYxLjQ0NiAxNjEuNDQ0LC0xNjEuNDQ2Yzg5LjAxOSwwIDE2MS40NCw3Mi40MjUgMTYxLjQ0LDE2MS40NDZjMCw4OS4wMTkgLTcyLjQyMiwxNjEuNDQyIC0xNjEuNDQsMTYxLjQ0MnptMCwtMzEzLjA0OWMtODMuNTk3LDAgLTE1MS42MDYsNjguMDExIC0xNTEuNjA2LDE1MS42MDdjMCw4My41OTYgNjguMDEsMTUxLjYwNCAxNTEuNjA2LDE1MS42MDRjODMuNTkzLDAgMTUxLjYwNCwtNjguMDA5IDE1MS42MDQsLTE1MS42MDRjLTAuMDAxLC04My41OTYgLTY4LjAxMiwtMTUxLjYwNyAtMTUxLjYwNCwtMTUxLjYwN3oiIGZpbGw9IiM2REFCRTQiLz4KICAgPC9nPgogIDwvZz4KIDwvZz4KPC9zdmc+',
                 title: 'VcCesium',
                 desc: '-',
                 link: 'https://zouyaoji.top/vue-cesium/#/zh-CN/component/analyses/vc-measurements',
@@ -169,11 +174,6 @@ export const NAV_DATA = [
                 link: 'https://snowy.xiaonuo.vip/index',
             },
             {
-                icon: '',
-                title: '灰大设计导航',
-                desc: '',
-                link: 'https://www.pslkzs.com/nav.php',
-            }, {
                 icon: '',
                 title: '数据共享中心',
                 desc: '',
