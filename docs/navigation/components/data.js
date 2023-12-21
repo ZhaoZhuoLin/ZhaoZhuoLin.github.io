@@ -29,6 +29,41 @@ export const NAV_DATA = [
     },{
         title: 'GIS开发工具',
         items: [
+            {
+                title: '全球地理信息资源目录服务系统',
+                desc: '在线省市县乡村五级Shp下载',
+                link: 'https://www.webmap.cn/main.do?method=index',
+            },
+            {
+                title: '资源环境科学与数据中心',
+                desc: '资源环境科学与数据中心',
+                link: 'https://www.resdc.cn/',
+            },
+            {
+                title: '地理空间数据云',
+                desc: '地理空间数据云',
+                link: 'https://www.gscloud.cn/#page1',
+            },
+            {
+                title: 'Google地球',
+                desc: 'Google地球',
+                link: 'https://www.earthol.com/g/',
+            },
+            {
+                title: '中国地震参数区划图',
+                desc: 'Google地球',
+                link: 'https://www.gb18306.net/',
+            },
+            {                
+                title: '星图地球',
+                desc: '星图地球',
+                link: 'https://online.geovisearth.com/browser',
+            },
+            {                
+                title: '星图地球1',
+                desc: '星图地球1',
+                link: 'https://geovisearth.com/',
+            },
             {                
                 title: '在线省市县乡村五级Shp下载',
                 desc: '在线省市县乡村五级Shp下载',
@@ -95,19 +130,13 @@ export const NAV_DATA = [
             },
             {
                 icon: '',
-                title: 'Leaflet',
-                desc: '-',
-                link: 'https://leafletjs.com/reference-1.5.0.html#imageoverlay',
-            },
-            {
-                icon: '',
                 title: 'WebGL',
                 desc: '-',
                 link: 'http://www.yanhuangxueyuan.com/',
             },
             {
                 icon: '',
-                title: 'Cesium中文api文档',
+                title: 'Cesium中文API',
                 desc: '-',
                 link: 'http://cesium.xin/cesium/cn/Documentation1.62/',
             },
@@ -179,7 +208,18 @@ export const NAV_DATA = [
                 desc: '',
                 link: 'http://mapgl.com/shareData/#/domestic',
             },
-            
+            {
+                icon: '',
+                title: '帮小忙',
+                desc: '',
+                link: 'https://tool.browser.qq.com/',
+            },
+            {
+                icon: '',
+                title: 'He3',
+                desc: '',
+                link: 'https://he3app.com/zh/',
+            },
         ],
     },{
         title: '博客参考',
