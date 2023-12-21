@@ -1,6 +1,6 @@
 @echo off  
 
-cd ../docs/.vitepress/dist
+cd ./docs/.vitepress/dist
   
 echo 初始化Git仓库...  
 git init

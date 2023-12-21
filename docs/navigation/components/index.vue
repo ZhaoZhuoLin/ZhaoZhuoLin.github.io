@@ -1,7 +1,16 @@
+<script setup>
+import { menu } from "./menu.js";
+import * as echarts from "echarts";
+import { reactive } from "vue";
+const menuList = reactive(menu);
+const checkActicleItem = (val) => {
+  val.link ? window.open(val.link) : "";
+};
+</script>
 <template>
   <div>
-    <div v-for="(item, index) in NAV_DATA" :index="index">
-      <h2>{{ item.title }}</h2>
+    <div v-for="(item, index) in menuList" :index="index" :key="index">
+      <h3>{{ item.title }}</h3>
       <div class="nav-container">
         <ul>
           <li
@@ -10,41 +19,17 @@
           >
             <div class="articleItem" @click="checkActicleItem(articleItem)">
               <div>
-                <h4>
+                <h6>
                   {{ articleItem.title }}
-                </h4>
+                </h6>
               </div>
             </div>
           </li>
         </ul>
       </div>
     </div>
-   </div>
+  </div>
 </template>
-
-<script>
-import sidebar from "../../.vitepress/sidebar";
-import { NAV_DATA } from "./data.js";
-import * as echarts from "echarts";
-export default {
-  name: "nav",
-  data() {
-    return {
-      NAV_DATA: NAV_DATA,
-    };
-  },
-  mounted() {
-  },
-  methods: {
-    checkActicleItem(val) {
-      if (val.link) {
-        window.open(val.link);
-      }
-    },
-  },
-};
-</script>
-
 <style scoped>
 .nav-container ul {
   display: flex;
@@ -62,5 +47,5 @@ export default {
   margin-bottom: 10px;
   padding: 10px;
   margin-right: 1%;
-} 
+}
 </style>

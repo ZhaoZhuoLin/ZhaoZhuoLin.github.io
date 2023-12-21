@@ -1,5 +1,4 @@
-export const NAV_DATA = [
-    {
+export const menu = [{
         title: '气象可视化',
         items: [{
                 icon: '',
@@ -19,17 +18,16 @@ export const NAV_DATA = [
                 desc: '-',
                 link: 'http://m.nmc.cn/',
             },
-         {
-            icon: '',
-            title: 'windy',
-            desc: '-',
-            link: 'https://www.windy.com/?22.106,-109.688,3'
-         }
-        ],
-    },{
-        title: 'GIS开发工具',
-        items: [
             {
+                icon: '',
+                title: 'windy',
+                desc: '-',
+                link: 'https://www.windy.com/?22.106,-109.688,3'
+            }
+        ],
+    }, {
+        title: 'GIS开发工具',
+        items: [{
                 title: '全球地理信息资源目录服务系统',
                 desc: '在线省市县乡村五级Shp下载',
                 link: 'https://www.webmap.cn/main.do?method=index',
@@ -54,17 +52,17 @@ export const NAV_DATA = [
                 desc: 'Google地球',
                 link: 'https://www.gb18306.net/',
             },
-            {                
+            {
                 title: '星图地球',
                 desc: '星图地球',
                 link: 'https://online.geovisearth.com/browser',
             },
-            {                
+            {
                 title: '星图地球1',
                 desc: '星图地球1',
                 link: 'https://geovisearth.com/',
             },
-            {                
+            {
                 title: '在线省市县乡村五级Shp下载',
                 desc: '在线省市县乡村五级Shp下载',
                 link: 'https://map.ruiduobao.com/',
@@ -142,12 +140,27 @@ export const NAV_DATA = [
             },
             {
                 icon: '',
+                title: 'Turf',
+                desc: '-',
+                link: 'https://turfjs.org/docs/#bboxClip',
+            },
+            {
+                icon: '',
                 title: '三维案例',
                 desc: '-',
                 link: 'http://mapgl.com/shareCode/#/domestic',
             },
         ],
-    }, 
+    },
+    {
+        title: '前端工作流',
+        items: [{
+            icon: '',
+            title: 'Docker hub',
+            desc: '',
+            link: 'https://hub-stage.docker.com/search?q=node',
+        }]
+    },
     {
         title: '管理系统',
         items: [{
@@ -168,7 +181,7 @@ export const NAV_DATA = [
                 desc: '',
                 link: 'https://snowy.xiaonuo.vip/index',
             },
-             {
+            {
                 icon: '',
                 title: '数据共享中心',
                 desc: '',
@@ -181,7 +194,7 @@ export const NAV_DATA = [
                 link: 'http://file.jing999.cn/workspace/Interviews/result.html',
             },
         ],
-    }, 
+    },
     {
         title: '产品工具',
         items: [{
@@ -221,24 +234,24 @@ export const NAV_DATA = [
                 link: 'https://he3app.com/zh/',
             },
         ],
-    },{
+    }, {
         title: '博客参考',
         items: [{
-            icon: '',
-            title: '习题解答',
-            desc: '',
-            link: 'http://file.jing999.cn/workspace/Interviews/result.html',
-        },{
+                icon: '',
+                title: '习题解答',
+                desc: '',
+                link: 'http://file.jing999.cn/workspace/Interviews/result.html',
+            }, {
                 icon: '',
                 title: '粥里有勺糖',
                 desc: '',
                 link: 'https://sugarat.top/',
-            },{
+            }, {
                 icon: '',
                 title: '文浩',
                 desc: '',
                 link: 'https://fuwenhao.club/en/',
-            },{
+            }, {
                 icon: '',
                 title: '小狮子前端',
                 desc: '',

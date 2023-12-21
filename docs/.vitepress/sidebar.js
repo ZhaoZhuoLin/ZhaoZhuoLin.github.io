@@ -1,6 +1,5 @@
 export default [{
         text: '资源导航',
-
         link: '/navigation/index',
         items: []
     },
