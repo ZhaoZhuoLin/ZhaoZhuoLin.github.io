@@ -9,7 +9,8 @@ export default defineConfig({
     logo:"./codetime.jpg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
+      { text: '😀主页', link: '/' },
+      { text: '🚝开源项目', link: '/' },
      ],
     sidebar,
     socialLinks: [

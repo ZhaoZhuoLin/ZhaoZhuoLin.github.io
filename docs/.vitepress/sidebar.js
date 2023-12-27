@@ -1,5 +1,5 @@
 export default [{
-        text: '资源导航',
+        text: '导航推荐',
         link: '/navigation/index',
         items: []
     },
@@ -12,6 +12,7 @@ export default [{
     },
     {
         text: 'Node',
+        collapsed: true,
         items: [{
                 text: 'npm包管理工具',
                 link: '/node/indexpackage'
@@ -46,6 +47,7 @@ export default [{
     },
     {
         text: '模块化打包工具',
+        collapsed: true,
         items: [{
             text: 'webpack',
             link: '/module/webpack'
@@ -62,9 +64,26 @@ export default [{
     },
     {
         text: 'Vue',
+        collapsed: true,
         items: [{
             text: 'Vue2.0响应式数据原理',
             link: '/vue/readctive'
         }]
+    },
+    {
+        text: 'Nginx',
+        collapsed: true,
+        items: [ ]
+    },
+    {
+        text: 'Docker',
+        collapsed: true,
+        items: [{
+            text: '认识Docker',
+            link: '/docker/recognize'
+        },{
+            text: 'dockerfile',
+            link: '/docker/dockerfile文件'
+        } ]
     },
 ]

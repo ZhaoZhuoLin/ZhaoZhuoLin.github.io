@@ -36,6 +36,8 @@ const checkActicleItem = (val) => {
   flex-wrap: wrap;
   width: 100%;
   list-style: none;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 .nav-container ul li {
   cursor: pointer;
