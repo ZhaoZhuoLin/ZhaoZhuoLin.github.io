@@ -3,7 +3,7 @@ export const menu = [{
         items: [{
                 icon: '',
                 title: '中科宇图在线实况',
-                desc: '',
+                desc: '可以看天气',
                 link: 'http://air.mapuni.cn/lock#/',
             },
             {
@@ -15,27 +15,29 @@ export const menu = [{
             {
                 icon: '',
                 title: '中央气象台实况',
-                desc: '-',
+                desc: '可以看天气',
                 link: 'http://m.nmc.cn/',
             },
             {
                 icon: '',
                 title: 'windy',
-                desc: '-',
+                desc: '专业气象展示',
                 link: 'https://www.windy.com/?22.106,-109.688,3'
             }
         ],
     }, {
         title: 'GIS开发工具',
-        items: [{
+        items: [
+            
+            {
+                title: '高分天气',
+                desc: '',
+                link: 'http://gaofen.mlogcn.com/',
+            }
+            ,{
                 title: '全球地理信息资源目录服务系统',
                 desc: '在线省市县乡村五级Shp下载',
                 link: 'https://www.webmap.cn/main.do?method=index',
-            },
-            {
-                title: '资源环境科学与数据中心',
-                desc: '资源环境科学与数据中心',
-                link: 'https://www.resdc.cn/',
             },
             {
                 title: '地理空间数据云',
@@ -82,7 +84,7 @@ export const menu = [{
             {
                 icon: 'https://tool.lu/favicon.ico',
                 title: '航空气象网',
-                desc: '-',
+                desc: 'GIS可视化参考',
                 link: 'http://aviation.nmc.cn/',
             },
             {
@@ -93,61 +95,61 @@ export const menu = [{
             },
             {
                 title: 'VcCesium',
-                desc: '-',
+                desc: '',
                 link: 'https://zouyaoji.top/vue-cesium/#/zh-CN/component/analyses/vc-measurements',
             },
             {
                 icon: 'https://caniuse.com/img/favicon-128.png',
                 title: '在线矢量可视化',
-                desc: '-',
+                desc: 'mapshaper',
                 link: 'https://mapshaper.org',
             },
             {
                 icon: '',
                 title: '阿里DataV矢量',
-                desc: '-',
+                desc: '阿里DataV矢量',
                 link: 'https://datav.aliyun.com/portal/school/atlas/area_selector',
             },
             {
                 icon: '',
                 title: 'Three.js',
-                desc: '-',
+                desc: 'Three',
                 link: 'https://techbrood.com/threejs/docs/',
             },
             {
                 icon: '',
                 title: 'Leaflet',
-                desc: '-',
+                desc: '一个开源的 JavaScript库，用于移动友好的交互式地图',
                 link: 'https://leafletjs.com/reference-1.5.0.html#imageoverlay',
             },
             {
                 icon: '',
                 title: 'Mapbox',
-                desc: '-',
+                desc: 'Mapbox',
                 link: 'https://docs.mapbox.com/mapbox-gl-js/example/',
             },
             {
                 icon: '',
                 title: 'WebGL',
-                desc: '-',
+                desc: 'WebGL',
                 link: 'http://www.yanhuangxueyuan.com/',
             },
             {
                 icon: '',
                 title: 'Cesium中文API',
-                desc: '-',
+                desc: 'Cesium中文API',
                 link: 'http://cesium.xin/cesium/cn/Documentation1.62/',
             },
             {
                 icon: '',
                 title: 'Turf',
-                desc: '-',
+                desc: '浏览器和 Node.js 的高级地理空间分析',
                 link: 'https://turfjs.org/docs/#bboxClip',
             },
             {
                 icon: '',
                 title: '三维案例',
-                desc: '-',
+                desc: '三维案例',
                 link: 'http://mapgl.com/shareCode/#/domestic',
             },
         ],
@@ -157,15 +159,22 @@ export const menu = [{
         items: [{
             icon: '',
             title: 'Docker hub',
-            desc: '',
+            desc: 'Docker hub',
             link: 'https://hub-stage.docker.com/search?q=node',
         }]
     },
     {
         title: '管理系统',
-        items: [{
+        items: [
+            {
                 icon: '',
-                title: 'ELADMIN',
+                title: 'vue-admin-perfect',
+                desc: '',
+                link: 'https://yuanzbz.gitee.io/vue-admin-perfect/#/home',
+                
+            },{
+                icon: '',
+                title: 'eladmin',
                 desc: '',
                 link: 'https://eladmin.vip/demo/',
             },
@@ -187,13 +196,80 @@ export const menu = [{
                 desc: '',
                 link: 'http://mapgl.com/shareData/#/domestic',
             },
+        ],
+    },
+    {
+        title: '编译&构建&打包',
+        items:[
             {
                 icon: '',
-                title: '习题解答',
-                desc: '',
-                link: 'http://file.jing999.cn/workspace/Interviews/result.html',
+                title: 'Webpack',
+                desc: '静态模块打包工具',
+                link: 'https://www.webpackjs.com/',
             },
-        ],
+            {
+                icon: '',
+                title: 'Vite',
+                desc: '下一代的前端工具链',
+                link: 'https://cn.vitejs.dev/',
+            },
+            {
+                icon: '',
+                title: 'Rollup',
+                desc: '用于 JavaScript 的模块打包工具',
+                link: 'https://www.rollupjs.com/',
+            },
+            {
+                icon: '',
+                title: 'Babel',
+                desc: '是一个 JavaScript 编译器',
+                link: 'https://www.babeljs.cn/',
+            },
+            {
+                icon: '',
+                title: 'Esbuild',
+                desc: '一个极快的网络打包器',
+                link: 'https://esbuild.github.io/',
+            }
+        ]
+    },
+    {
+        title: 'Vue生态',
+        items: [{
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'Vue2',
+            desc: '渐进式JavaScript 框架',
+            link: 'https://v2.cn.vuejs.org/',
+        },{
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'Vue3',
+            desc: '渐进式JavaScript 框架',
+            link: 'https://cn.vuejs.org/',
+        },{
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'VueRouter',
+            desc: '为 Vue.js 提供富有表现力、可配置的、方便的路由',
+            link: 'https://router.vuejs.org/zh/',
+        },{
+            icon: 'https://pinia.vuejs.org/logo.svg',
+            title: 'Pinia',
+            desc: '符合直觉的 Vue.js 状态管理库',
+            link: 'https://pinia.vuejs.org/zh/',
+        },{
+            icon: '',
+            title: 'Nuxt.js',
+            desc: '直观的Vue 框架',
+            link: 'https://nuxt.com/',
+        }]
+    },
+    {
+        title: 'React生态',
+        items: [{
+            icon: '',
+            title: 'React',
+            desc: '用于构建 Web 和原生交互界面的库',
+            link: 'https://zh-hans.react.dev/',
+        }]
     },
     {
         title: '产品工具',
@@ -202,18 +278,6 @@ export const menu = [{
                 title: '产品经理导航',
                 desc: '',
                 link: 'https://www.pmbaobao.com',
-            },
-            {
-                icon: '',
-                title: '灰大设计导航',
-                desc: '',
-                link: 'https://www.pslkzs.com/nav.php',
-            },
-            {
-                icon: '',
-                title: 'Snowy',
-                desc: '',
-                link: 'https://snowy.xiaonuo.vip/index',
             },
             {
                 icon: '',

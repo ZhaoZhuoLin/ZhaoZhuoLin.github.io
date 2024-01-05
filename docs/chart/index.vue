@@ -105,7 +105,7 @@ const createEcharts = (data, links) => {
 </script>
 <template>
   <div>
-    <div id="mainTest" style="width: 100%; height: 500px"></div>
+    <div id="mainTest" style="width: 100%; height: 650px"></div>
   </div>
 </template>
 

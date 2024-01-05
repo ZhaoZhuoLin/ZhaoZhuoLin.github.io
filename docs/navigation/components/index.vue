@@ -22,6 +22,10 @@ const checkActicleItem = (val) => {
                 <h6>
                   {{ articleItem.title }}
                 </h6>
+                <span v-if="articleItem.desc">
+                  {{ articleItem.desc }}
+                </span>
+                <span v-else>未获取到</span>
               </div>
             </div>
           </li>
@@ -49,5 +53,9 @@ const checkActicleItem = (val) => {
   margin-bottom: 10px;
   padding: 10px;
   margin-right: 1%;
+}
+.articleItem span {
+  font-size: 12px;
+  color: #3c3c438f;
 }
 </style>

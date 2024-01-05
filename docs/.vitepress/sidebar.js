@@ -1,8 +1,4 @@
-export default [{
-        text: '导航推荐',
-        link: '/navigation/index',
-        items: []
-    },
+export default [ 
     {
         text: '浏览器',
         items: [{
@@ -45,31 +41,14 @@ export default [{
             }
         ]
     },
-    {
-        text: '模块化打包工具',
-        collapsed: true,
-        items: [{
-            text: 'webpack',
-            link: '/module/webpack'
-        }, {
-            text: 'rollup',
-            link: '/module/rollup'
-        }, {
-            text: 'esbuild',
-            link: '/module/esbuild'
-        }, {
-            text: 'vite',
-            link: '/module/vite'
-        }]
-    },
-    {
-        text: 'Vue',
-        collapsed: true,
-        items: [{
-            text: 'Vue2.0响应式数据原理',
-            link: '/vue/readctive'
-        }]
-    },
+    // {
+    //     text: 'Vue',
+    //     collapsed: true,
+    //     items: [{
+    //         text: 'Vue2.0响应式数据原理',
+    //         link: '/vue/readctive'
+    //     }]
+    // },
     {
         text: 'Nginx',
         collapsed: true,
