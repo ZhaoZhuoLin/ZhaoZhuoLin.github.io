@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as n}from"./chunks/framework.NfT8EtuE.js";const E=JSON.parse('{"title":"模块化","description":"","frontmatter":{},"headers":[],"relativePath":"node/module.md","filePath":"node/module.md"}'),t={name:"node/module.md"},l=n("",9),e=[l];function h(p,k,o,r,d,c){return i(),a("div",null,e)}const u=s(t,[["render",h]]);export{E as __pageData,u as default};

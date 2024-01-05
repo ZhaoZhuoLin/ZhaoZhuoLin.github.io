@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as l}from"./chunks/framework.NfT8EtuE.js";const u=JSON.parse('{"title":"渲染模式","description":"","frontmatter":{},"headers":[],"relativePath":"node/渲染模式.md","filePath":"node/渲染模式.md"}'),r={name:"node/渲染模式.md"},i=l("",9),o=[i];function s(n,h,d,c,_,S){return e(),t("div",null,o)}const p=a(r,[["render",s]]);export{u as __pageData,p as default};

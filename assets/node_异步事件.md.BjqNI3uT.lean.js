@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as n}from"./chunks/framework.NfT8EtuE.js";const o=JSON.parse('{"title":"异步事件","description":"","frontmatter":{},"headers":[],"relativePath":"node/异步事件.md","filePath":"node/异步事件.md"}'),t={name:"node/异步事件.md"},h=n("",3),p=[h];function l(e,k,E,r,d,g){return i(),a("div",null,p)}const y=s(t,[["render",l]]);export{o as __pageData,y as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,R as r}from"./chunks/framework.NfT8EtuE.js";const m=JSON.parse('{"title":"推荐使用库","description":"","frontmatter":{},"headers":[],"relativePath":"node/插件扩展.md","filePath":"node/插件扩展.md"}'),o={name:"node/插件扩展.md"},n=r("",2),l=[n];function _(s,i,c,d,p,h){return a(),t("div",null,l)}const u=e(o,[["render",_]]);export{m as __pageData,u as default};

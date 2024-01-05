@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as r}from"./chunks/framework.NfT8EtuE.js";const m=JSON.parse('{"title":"运行环境","description":"","frontmatter":{},"headers":[],"relativePath":"node/runnode.md","filePath":"node/runnode.md"}'),o={name:"node/runnode.md"},n=r("",13),h=[n];function i(l,s,c,d,p,u){return e(),t("div",null,h)}const f=a(o,[["render",i]]);export{m as __pageData,f as default};

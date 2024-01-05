@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as n}from"./chunks/framework.NfT8EtuE.js";const c=JSON.parse('{"title":"PM2","description":"","frontmatter":{},"headers":[],"relativePath":"node/PM2.md","filePath":"node/PM2.md"}'),p={name:"node/PM2.md"},t=n("",3),h=[t];function l(k,e,E,r,d,o){return i(),a("div",null,h)}const y=s(p,[["render",l]]);export{c as __pageData,y as default};
