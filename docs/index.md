@@ -3,11 +3,9 @@ layout: home
 
 hero:
   name: CodeTime(代码时间)
-  text: 
-  tagline: 
   image:
     src: https://img.cdn.sugarat.top/mdImg/MTY3ODAwMzU3MTc2Ng==678003571766
-    alt: 轻取
+    alt: 代码时间
   actions:
     - theme: brand
       text: 立即体验

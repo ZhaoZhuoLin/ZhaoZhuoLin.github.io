@@ -2,7 +2,7 @@
 存在于项目根目录。tsconfig.json指定编译项目所需的根文件和编译器选项
 
 ## 参考配置
-``` js
+``` ts
 {
   "compilerOptions": {
     /* 基本选项 */
