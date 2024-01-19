@@ -28,6 +28,7 @@ export default defineConfig({
           link: '/'
         }
       ]},
+      { text: '🛫代办清单', link: '/base/index' },
      ],
     sidebar,
     socialLinks: [
