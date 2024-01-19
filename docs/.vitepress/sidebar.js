@@ -41,14 +41,14 @@ export default [
             }
         ]
     },
-    // {
-    //     text: 'Vue',
-    //     collapsed: true,
-    //     items: [{
-    //         text: 'Vue2.0响应式数据原理',
-    //         link: '/vue/readctive'
-    //     }]
-    // },
+    {
+        text: 'Vue',
+        collapsed: true,
+        items: [{
+            text: 'Vue2.0响应式数据原理',
+            link: '/vue/readctive'
+        }]
+    },
     {
         text: 'Nginx',
         collapsed: true,
@@ -63,6 +63,18 @@ export default [
         },{
             text: 'dockerfile',
             link: '/docker/dockerfile文件'
-        } ]
+        }]
+    },
+    {
+        text: 'typeScript',
+        collapsed: true,
+        items: [{
+                text: 'TypeScript',
+                link: '/typeScript/type'
+            }, {
+                text: 'tsconfig',
+                link: '/typeScript/tsconfig'
+            }
+        ]
     },
 ]

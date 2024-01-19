@@ -60,6 +60,8 @@ const createDatafromSlideBar = () => {
       });
     }
   }
+  console.log(datas)
+  console.log(links)
   createEcharts(datas, links);
 };
 

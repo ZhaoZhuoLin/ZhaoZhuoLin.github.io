@@ -14,12 +14,20 @@ export default defineConfig({
        
       { 
         text: '🚝开源项目', 
-       items:[
+        items:[
         {
           text: '看球🌍',
           link: '/'
         }
-        ]},
+      ]},
+      { 
+        text: '📘公众号', 
+        items:[
+        {
+          text: '代码时间',
+          link: '/'
+        }
+      ]},
      ],
     sidebar,
     socialLinks: [
