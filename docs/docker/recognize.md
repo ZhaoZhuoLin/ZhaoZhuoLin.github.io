@@ -1,4 +1,22 @@
 # 认识Docker
+## 安装
+```
+yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+## 镜像加速器
+```
+Docker 中国官方镜像 https://registry.docker-cn.com
+DaoCloud 镜像站 http://f1361db2.m.daocloud.io
+科大镜像站https://docker.mirrors.ustc.edu.cn
+阿里云镜像获取地址
+网易云https://hub-mirror.c.163.com
+腾讯云https://mirror.ccs.tencentyun.com
+```
+
+## 启动docker
+```
+systemctl start docker
+```
 ## 基本概念
 打包、分发、部署
 基于go语言开发，可以让开发者快速打包应用以及依赖包熬到一个轻量级、可移植的容器中，然后发布到任何流行的linux机器上。

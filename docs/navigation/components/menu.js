@@ -1,4 +1,162 @@
 export const menu = [{
+        title: '前端工作流',
+        items: [{
+            icon: '',
+            title: 'Docker hub',
+            desc: 'Docker hub',
+            link: 'https://hub-stage.docker.com/search?q=node',
+        }, {
+
+            icon: '',
+            title: 'icones',
+            desc: '',
+            link: 'https://icones.js.org/',
+        }]
+    },
+    {
+        title: '博客参考',
+        items: [{
+                icon: '',
+                title: 'tianyuhao',
+                desc: '',
+                link: 'https://blog.tianyuhao.cn/article/milepost/milepost-2021.html',
+            },
+            {
+                icon: '',
+                title: '习题解答',
+                desc: '',
+                link: 'http://file.jing999.cn/workspace/Interviews/result.html',
+            }, {
+                icon: '',
+                title: '粥里有勺糖',
+                desc: '',
+                link: 'https://sugarat.top/',
+            }, {
+                icon: '',
+                title: '文浩',
+                desc: '',
+                link: 'https://fuwenhao.club/en/',
+            }, {
+                icon: '',
+                title: '小狮子前端',
+                desc: '',
+                link: 'https://chodocs.cn/guide.html',
+            },
+            {
+                icon: '',
+                title: 'ChoDocs',
+                desc: '',
+                link: 'https://chodocs.cn/',
+            },
+        ]
+    },
+    {
+        title: '管理系统',
+        items: [{
+                icon: '',
+                title: 'vue-admin-perfect',
+                desc: '',
+                link: 'https://yuanzbz.gitee.io/vue-admin-perfect/#/home',
+
+            }, {
+                icon: '',
+                title: 'eladmin',
+                desc: '',
+                link: 'https://eladmin.vip/demo/',
+            },
+            {
+                icon: '',
+                title: '登录地信遥感数据汇',
+                desc: '',
+                link: 'http://gisrsdata.org/@login',
+            },
+            {
+                icon: '',
+                title: 'Snowy',
+                desc: '',
+                link: 'https://snowy.xiaonuo.vip/index',
+            },
+            {
+                icon: '',
+                title: '数据共享中心',
+                desc: '',
+                link: 'http://mapgl.com/shareData/#/domestic',
+            },
+        ],
+    },
+    {
+        title: '编译&构建&打包',
+        items: [{
+                icon: '',
+                title: 'Webpack',
+                desc: '静态模块打包工具',
+                link: 'https://www.webpackjs.com/',
+            },
+            {
+                icon: '',
+                title: 'Vite',
+                desc: '下一代的前端工具链',
+                link: 'https://cn.vitejs.dev/',
+            },
+            {
+                icon: '',
+                title: 'Rollup',
+                desc: '用于 JavaScript 的模块打包工具',
+                link: 'https://www.rollupjs.com/',
+            },
+            {
+                icon: '',
+                title: 'Babel',
+                desc: '是一个 JavaScript 编译器',
+                link: 'https://www.babeljs.cn/',
+            },
+            {
+                icon: '',
+                title: 'Esbuild',
+                desc: '一个极快的网络打包器',
+                link: 'https://esbuild.github.io/',
+            }
+        ]
+    },
+    {
+        title: 'Vue生态',
+        items: [{
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'Vue2',
+            desc: '渐进式JavaScript 框架',
+            link: 'https://v2.cn.vuejs.org/',
+        }, {
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'Vue3',
+            desc: '渐进式JavaScript 框架',
+            link: 'https://cn.vuejs.org/',
+        }, {
+            icon: 'https://cn.vuejs.org/logo.svg',
+            title: 'VueRouter',
+            desc: '为 Vue.js 提供富有表现力、可配置的、方便的路由',
+            link: 'https://router.vuejs.org/zh/',
+        }, {
+            icon: 'https://pinia.vuejs.org/logo.svg',
+            title: 'Pinia',
+            desc: '符合直觉的 Vue.js 状态管理库',
+            link: 'https://pinia.vuejs.org/zh/',
+        }, {
+            icon: '',
+            title: 'Nuxt.js',
+            desc: '直观的Vue 框架',
+            link: 'https://nuxt.com/',
+        }]
+    },
+    {
+        title: 'React生态',
+        items: [{
+            icon: '',
+            title: 'React',
+            desc: '用于构建 Web 和原生交互界面的库',
+            link: 'https://zh-hans.react.dev/',
+        }]
+    },
+    {
         title: '气象可视化',
         items: [{
                 icon: '',
@@ -27,14 +185,36 @@ export const menu = [{
         ],
     }, {
         title: 'GIS开发工具',
-        items: [
-            
+        items: [{
+                title: '温州天气',
+                desc: '',
+                link: "http://www.wz121.com/"
+            },
+            {
+                title: '风云四号卫星',
+                desc: '',
+                link: 'http://rsapp.nsmc.org.cn/geofy/?i=10&isPlay=true&speed=5&sat=fy-4a&pro=geos&type=reg_china&band=1&overlay=36,37&x=353172.57850904996&y=2695235.7585091484&z=1&area=1&ll=0&county=1&duration=30&interval=1&c=false&cp=0.5&st=&et=&ac=&hide=0&s=1',
+            },
+            {
+                title: 'vis3d',
+                desc: '',
+                link: 'http://mapgl.com/vis3d/',
+            },
+            {
+                title: 'TvT',
+                desc: '',
+                link: 'http://opensource.icegl.cn/',
+            },
+            {
+                title: '三维开发平台:数字视觉',
+                desc: '',
+                link: 'http://dc.dvgis.cn/#/examples',
+            },
             {
                 title: '高分天气',
                 desc: '',
                 link: 'http://gaofen.mlogcn.com/',
-            }
-            ,{
+            }, {
                 title: '全球地理信息资源目录服务系统',
                 desc: '在线省市县乡村五级Shp下载',
                 link: 'https://www.webmap.cn/main.do?method=index',
@@ -154,123 +334,7 @@ export const menu = [{
             },
         ],
     },
-    {
-        title: '前端工作流',
-        items: [{
-            icon: '',
-            title: 'Docker hub',
-            desc: 'Docker hub',
-            link: 'https://hub-stage.docker.com/search?q=node',
-        }]
-    },
-    {
-        title: '管理系统',
-        items: [
-            {
-                icon: '',
-                title: 'vue-admin-perfect',
-                desc: '',
-                link: 'https://yuanzbz.gitee.io/vue-admin-perfect/#/home',
-                
-            },{
-                icon: '',
-                title: 'eladmin',
-                desc: '',
-                link: 'https://eladmin.vip/demo/',
-            },
-            {
-                icon: '',
-                title: '登录地信遥感数据汇',
-                desc: '',
-                link: 'http://gisrsdata.org/@login',
-            },
-            {
-                icon: '',
-                title: 'Snowy',
-                desc: '',
-                link: 'https://snowy.xiaonuo.vip/index',
-            },
-            {
-                icon: '',
-                title: '数据共享中心',
-                desc: '',
-                link: 'http://mapgl.com/shareData/#/domestic',
-            },
-        ],
-    },
-    {
-        title: '编译&构建&打包',
-        items:[
-            {
-                icon: '',
-                title: 'Webpack',
-                desc: '静态模块打包工具',
-                link: 'https://www.webpackjs.com/',
-            },
-            {
-                icon: '',
-                title: 'Vite',
-                desc: '下一代的前端工具链',
-                link: 'https://cn.vitejs.dev/',
-            },
-            {
-                icon: '',
-                title: 'Rollup',
-                desc: '用于 JavaScript 的模块打包工具',
-                link: 'https://www.rollupjs.com/',
-            },
-            {
-                icon: '',
-                title: 'Babel',
-                desc: '是一个 JavaScript 编译器',
-                link: 'https://www.babeljs.cn/',
-            },
-            {
-                icon: '',
-                title: 'Esbuild',
-                desc: '一个极快的网络打包器',
-                link: 'https://esbuild.github.io/',
-            }
-        ]
-    },
-    {
-        title: 'Vue生态',
-        items: [{
-            icon: 'https://cn.vuejs.org/logo.svg',
-            title: 'Vue2',
-            desc: '渐进式JavaScript 框架',
-            link: 'https://v2.cn.vuejs.org/',
-        },{
-            icon: 'https://cn.vuejs.org/logo.svg',
-            title: 'Vue3',
-            desc: '渐进式JavaScript 框架',
-            link: 'https://cn.vuejs.org/',
-        },{
-            icon: 'https://cn.vuejs.org/logo.svg',
-            title: 'VueRouter',
-            desc: '为 Vue.js 提供富有表现力、可配置的、方便的路由',
-            link: 'https://router.vuejs.org/zh/',
-        },{
-            icon: 'https://pinia.vuejs.org/logo.svg',
-            title: 'Pinia',
-            desc: '符合直觉的 Vue.js 状态管理库',
-            link: 'https://pinia.vuejs.org/zh/',
-        },{
-            icon: '',
-            title: 'Nuxt.js',
-            desc: '直观的Vue 框架',
-            link: 'https://nuxt.com/',
-        }]
-    },
-    {
-        title: 'React生态',
-        items: [{
-            icon: '',
-            title: 'React',
-            desc: '用于构建 Web 和原生交互界面的库',
-            link: 'https://zh-hans.react.dev/',
-        }]
-    },
+
     {
         title: '产品工具',
         items: [{
@@ -298,35 +362,5 @@ export const menu = [{
                 link: 'https://he3app.com/zh/',
             },
         ],
-    }, {
-        title: '博客参考',
-        items: [{
-                icon: '',
-                title: '习题解答',
-                desc: '',
-                link: 'http://file.jing999.cn/workspace/Interviews/result.html',
-            }, {
-                icon: '',
-                title: '粥里有勺糖',
-                desc: '',
-                link: 'https://sugarat.top/',
-            }, {
-                icon: '',
-                title: '文浩',
-                desc: '',
-                link: 'https://fuwenhao.club/en/',
-            }, {
-                icon: '',
-                title: '小狮子前端',
-                desc: '',
-                link: 'https://chodocs.cn/guide.html',
-            },
-            {
-                icon: '',
-                title: 'ChoDocs',
-                desc: '',
-                link: 'https://chodocs.cn/',
-            },
-        ]
     }
 ]

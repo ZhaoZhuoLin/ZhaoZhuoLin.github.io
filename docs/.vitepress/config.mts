@@ -15,10 +15,10 @@ export default defineConfig({
       { 
         text: '🚝开源项目', 
         items:[
-        {
-          text: '看球🌍',
-          link: '/'
-        }
+          {
+            text: 'cesium-example效果示例',
+            link: '/'
+          }
       ]},
       { 
         text: '📘公众号', 
@@ -28,7 +28,6 @@ export default defineConfig({
           link: '/'
         }
       ]},
-      { text: '🛫代办清单', link: '/base/index' },
      ],
     sidebar,
     socialLinks: [

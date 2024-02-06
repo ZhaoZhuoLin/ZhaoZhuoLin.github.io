@@ -3,10 +3,6 @@
 ## 仓库介绍 
 基于 VitePress 的个人前端博客，里面大部分是技术相关的记录。
 [代码时间 | CodeTime](https://zhaozhuolin.github.io/)
-## 运行本项目
-```sh
-npm run dev
-```
 
 ## 推送pages分支
 默认build之后执行postbuild(cmd /c start pages.push.bat)进行推送至pages分支

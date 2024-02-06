@@ -1,6 +1,32 @@
-export default [ 
+export default [{
+        text: '前端工程化模板',
+        items: [{
+            text: 'Vue3项目模板',
+            link: '/vue3/templace'
+        }, {
+            text: 'Vue3+Cesium项目模板',
+            link: '/vue3/cesium-template'
+        }]
+    },
     {
-        text: '浏览器',
+        text: '前端工具探索',
+        items: [{
+            text: 'Webpack',
+            link: '/tool/Webpack'
+        }, {
+            text: 'Vite',
+            link: '/tool/Vite'
+        }, {
+            text: 'esbuild',
+            link: '/tool/esbuild'
+        }]
+    },
+    {
+        text: '项目管理',
+        items: []
+    },
+    {
+        text: '浏览器认识',
         items: [{
             text: '进程模型',
             link: '/browser/index'
@@ -52,7 +78,7 @@ export default [
     {
         text: 'Nginx',
         collapsed: true,
-        items: [ ]
+        items: []
     },
     {
         text: 'Docker',
@@ -60,21 +86,23 @@ export default [
         items: [{
             text: '认识Docker',
             link: '/docker/recognize'
-        },{
+        }, {
             text: 'dockerfile',
             link: '/docker/dockerfile文件'
+        }, {
+            text: '部署vue项目',
+            link: '/docker/部署vue项目'
         }]
     },
     {
         text: 'typeScript',
         collapsed: true,
         items: [{
-                text: 'TypeScript',
-                link: '/typeScript/type'
-            }, {
-                text: 'tsconfig',
-                link: '/typeScript/tsconfig'
-            }
-        ]
+            text: 'TypeScript',
+            link: '/typeScript/type'
+        }, {
+            text: 'tsconfig',
+            link: '/typeScript/tsconfig'
+        }]
     },
 ]
