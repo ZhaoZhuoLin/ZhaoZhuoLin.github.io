@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "postbuild":"cmd /c start pages.push.bat",
+    "postbuild": "cmd /c start pages.push.bat",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
@@ -15,6 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "echarts": "^5.4.3",
-    "vitepress": "^1.0.0-rc.30"
+    "vitepress": "1.0.0-rc.41"
   }
 }

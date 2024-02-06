@@ -9,23 +9,6 @@ export default [{
         }]
     },
     {
-        text: '前端工具探索',
-        items: [{
-            text: 'Webpack',
-            link: '/tool/Webpack'
-        }, {
-            text: 'Vite',
-            link: '/tool/Vite'
-        }, {
-            text: 'esbuild',
-            link: '/tool/esbuild'
-        }]
-    },
-    {
-        text: '项目管理',
-        items: []
-    },
-    {
         text: '浏览器认识',
         items: [{
             text: '进程模型',
@@ -89,9 +72,6 @@ export default [{
         }, {
             text: 'dockerfile',
             link: '/docker/dockerfile文件'
-        }, {
-            text: '部署vue项目',
-            link: '/docker/部署vue项目'
         }]
     },
     {
