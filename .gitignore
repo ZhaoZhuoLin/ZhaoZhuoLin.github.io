@@ -1,3 +1,7 @@
 node_modules
 docs/.vitepress/cache
 docs/.vitepress/dist
+codegrounds/node/node_modules
+codegrounds/typesript/node_modules
+codegrounds/vue/node_modules
+codegrounds/webpack/node_modules
