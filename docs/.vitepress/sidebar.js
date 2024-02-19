@@ -1,15 +1,32 @@
 export default [{
-        text: '前端工程化模板',
+        text: '前端工程化',
         items: [{
-            text: 'Vue3项目模板',
-            link: '/vue3/templace'
+            text: '工程化之代码规范-Eslint',
+            link: '/vue3/eslint'
+        }]
+    },
+    {
+        text: '构建工具',
+        items: [{
+            text: 'webpack',
+            link: '/builds/webpack'
         }, {
-            text: 'Vue3+Cesium项目模板',
-            link: '/vue3/cesium-template'
+            text: 'glup',
+            link: '/builds/glup'
+        }, {
+            text: 'rollup',
+            link: '/builds/rollup'
+        }, {
+            text: 'snowpack',
+            link: '/builds/snowpack'
+        }, {
+            text: 'vite',
+            link: '/builds/vite'
         }]
     },
     {
         text: '浏览器认识',
+        collapsed: true,
         items: [{
             text: '进程模型',
             link: '/browser/index'
@@ -59,11 +76,6 @@ export default [{
         }]
     },
     {
-        text: 'Nginx',
-        collapsed: true,
-        items: []
-    },
-    {
         text: 'Docker',
         collapsed: true,
         items: [{
@@ -75,7 +87,7 @@ export default [{
         }]
     },
     {
-        text: 'typeScript',
+        text: 'TypeScript',
         collapsed: true,
         items: [{
             text: 'TypeScript',
@@ -83,6 +95,20 @@ export default [{
         }, {
             text: 'tsconfig',
             link: '/typeScript/tsconfig'
+        }]
+    },
+    {
+        text: '计算机基础',
+        collapsed: true,
+        items: [{
+            text: 'ISO七层框架',
+            link: '/network/agreement'
+        }, {
+            text: 'Internet和互联网',
+            link: '/network/Internet'
+        }, {
+            text: 'TCP&UDP',
+            link: '/network/TCP和UDP'
         }]
     },
 ]

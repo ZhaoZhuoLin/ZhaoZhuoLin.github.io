@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -170px;
+}
+[data-theme="default"] body {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="digital"] body {
+  background-color: rgba(0, 12, 255, 0.5);
+  color: white;
+}

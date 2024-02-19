@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .native {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/prop-types@15.6.2/prop-types.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        class Welcome extends React.Component {
+            state = {
+                isHost: true
+            }
+
+            showData = () => {
+                alert(this.input1.value)
+            }
+            changeWeather = () => {
+                let { isHost } = this.state;
+                this.setState({
+                    isHost: !isHost
+                })
+            }
+            saveInput = (c) => {
+                this.input = c
+            }
+            render() {
+
+                return (
+                    <div>
+                        <h2>今天天气很{this.state.isHost ? '炎热' : '寒冷'}</h2>
+                        <input ref={this.saveInput} type="text" />
+                        {/*<input ref={(c)=>{this.input1=c;console.log("@",this.input1)}} type="text" placeholder="输入" />*/}
+                        <button onClick={this.showData}>点我提示</button>
+                        <button onClick={this.changeWeather}>切换天气</button>
+                    </div>
+                )
+            }
+        }
+        ReactDOM.render(
+            <Welcome />,
+            document.getElementById("root")
+        )
+    </script>
+</body>
+
+</html>

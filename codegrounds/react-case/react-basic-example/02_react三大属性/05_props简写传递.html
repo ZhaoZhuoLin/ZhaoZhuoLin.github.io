@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .native {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/prop-types@15.6.2/prop-types.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+
+        class Person extends React.Component {
+            constructor(props) {
+                //构造器是否接收props，是否传递给super，取决于是否希望在构造器中使用this访问props
+                super(props)
+                console.log("constructor",this.props)
+            }
+            static propTypes = {
+                name: PropTypes.string.isRequired,//限制name必须传递
+                age: PropTypes.number,//限制age为number
+                speak: PropTypes.func//限制speak为func
+            }
+            static defaultProps = {
+                age: 18//age默认0
+            }
+            state = {
+
+            }
+            render() {
+                return (
+                    <ul>
+                        <li>{this.props.name}</li>
+                        <li>{this.props.age}</li>
+                    </ul>
+                )
+            }
+        }
+        const p = { name: "丁卓" }
+        ReactDOM.render(
+            <Person {...p} />,
+            document.getElementById("root")
+        )
+    </script>
+</body>
+
+</html>

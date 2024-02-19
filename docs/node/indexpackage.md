@@ -2,11 +2,10 @@
 
 <p style="color: #7e7e7e;">更新时间：2023-10-28</p>
 
-## 简介
-npm和yarn都是JavaScript的包管理器，它们主要用于Node.js的插件管理和模块管理，包括安装、卸载、更新、查看、搜索、发布等。
+:::tip npm和yarn都是JavaScript的包管理器，它们主要用于Node.js的插件管理和模块管理，包括安装、卸载、更新、查看、搜索、发布等。
 总的来说，npm和yarn都是为了方便JavaScript开发者快速安装、更新、卸载和管理Node.js模块而诞生的工具，它们提供了丰富的命令和功能，让开发者可以更加高效地管理和使用Node.js生态系统中的资源。
 在一个Node.js项目中，package.json几乎是一个必须的文件，它的主要作用就是管理项目中所使用到的外部依赖包，同时它也是npm命令的入口文件。
-
+::: 
 ## 不同点
 
 1. 安装速度：通常，yarn的安装速度比npm快。这是因为在包的下载和安装过程中，yarn使用了并行下载和缓存等优化策略，而npm则是串行化处理这些操作。
@@ -122,6 +121,26 @@ nvm reinstall-packages
 nvm on
 # nvm启动切换关闭 
 nvm off 
+```
+:::
+
+
+## pnpm
+[管理依赖项](https://www.pnpm.cn/cli/remove)
+::: code-group
+```sh [pnpm]
+# 安装
+npm install -g pnpm
+# 安装xx到dependencies  
+pnpm add sax	
+# 保存到 devDependencies 配置项下
+pnpm add -D sax	
+# 安装软件包到全局环境中
+pnpm add -g sax 
+# 安装标记为 next 的版本
+pnpm add sax@next	
+# 安装指定版本 3.0.0
+pnpm add sax@3.0.0	
 ```
 :::
 

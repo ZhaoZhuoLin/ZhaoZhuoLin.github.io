@@ -4,8 +4,7 @@ layout: home
 hero:
   name: CodeTime(代码时间)
   image:
-    src: https://img.cdn.sugarat.top/mdImg/MTY3ODAwMzU3MTc2Ng==678003571766
-    alt: 代码时间
+     alt: 代码时间
   actions:
     - theme: brand
       text: 立即体验
@@ -18,6 +17,15 @@ hero:
       link: /navigation/
 
 features:
+  - icon: 💯 
+    title: 前端编程工具链整理
+    details: 一些问题整理与回顾
+  - icon: 🌎 
+    title: Cesium可视化
+    details: 你的指尖有改变世界的力量
+  - icon: 🛠️
+    title: 其他
+    details: 自动化部署、开发工具、网站大全
   - icon: ⚡️ 
     title: 避免重复造轮子
     details: 一些问题整理与回顾
@@ -31,5 +39,4 @@ features:
 <script setup>
 import chart from './chart/index.vue'
 </script>
-
-<chart/>
+<!-- <chart/> -->

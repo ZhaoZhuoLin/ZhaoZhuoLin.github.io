@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // class Person{
+        //     constructor(name,age){
+        //         this.name = name
+        //         this.age = age
+        //     }
+        //     speak(){
+        //         console.log(this)
+        //     }
+        // }
+        // let p1 = new Person('tom',18)
+        // p1.speak()//通过实例对象调用speak
+        // const x = p1.speak;
+        // x()
+
+        // function demo() {
+        //     'use strict'
+        //     console.log(this);
+        // }
+        // function demo1() {
+        //     console.log(this);
+        // }
+        // demo()
+        // demo1()
+
+        class Car{
+            constructor(name,price){
+                this.name= name
+                this.price= price
+                this.wheel = 4
+            }
+            //类中可以直接写赋值语句
+            a = 1
+        }
+        const s1 = new Car("奔驰c63",199);
+        const s2 = new Car("BMW",299);
+        console.log(s1);
+        console.log(s2);
+    </script>
+</body>
+
+</html>

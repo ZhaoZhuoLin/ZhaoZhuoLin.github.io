@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/prop-types@15.6.2/prop-types.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        /**
+         * 高阶函数：
+         *      1.若a函数，接受的参数是一个函数，则a为高阶函数
+         *      2.若a函数，调用的返回值是一个函数，则a为高阶函数
+         * 常见的高阶函数：
+         *      Promise，setTimeout,arr.map等等
+         * 函数的柯里化:
+         *      通过函数调用继续返回函数的方式，实现多次接收参数最有统一接受的编码形式
+         * */
+        
+        class Login extends React.Component {
+            handleSubmit = (event) => {
+                event.preventDefault();
+                let {username,password} = this.state
+                alert(`用户名：${username},密码：${password}`)
+            }
+
+            // 初始化状态
+            state = {
+                username: "",
+                password: ""
+            }
+
+            changeUserName = (event) => {
+                this.setState({
+                    username: event.target.value
+                })
+            }
+            changePasswork = (event) => {
+                this.setState({
+                    password: event.target.value
+                })
+            }
+
+            saveFromData=(dataType)=>{
+                return (event)=>{
+                    this.setState({
+                        [dataType]:event.target.value
+                    })
+                    // console.log(dataType)
+                    // console.log(event.target.value)
+                }
+            }
+
+            render() {
+                return (
+                    <form action="https://www.baidu.com" onSubmit={this.handleSubmit}>
+                        用户名：<input onChange={this.saveFromData("username")} name="username" type="text" />
+                        密码：<input onChange={this.saveFromData("password")} ame="password" type="password" />
+                        <button>登录</button>
+                    </form>
+                )
+            }
+        }
+        ReactDOM.render(
+            <Login />,
+            document.getElementById("root")
+        )
+    </script>
+</body>
+
+</html>

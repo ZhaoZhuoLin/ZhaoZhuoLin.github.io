@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="../../reactlib/16.14.0/babel.min.js"></script>
+    <script src="../../reactlib/16.14.0/prop-types.js"></script>
+    <script src="../../reactlib/16.14.0/react.development.js"></script>
+    <script src="../../reactlib/16.14.0/react-dom.development.js"></script>
+
+
+    <script type="text/babel">
+
+        /**
+         * 慢动作回放 使用index索引值作为key 
+         *  初始数据
+         *     {
+         *              id:1,
+         *              name:"a",
+         *              age:18
+         *          },
+         *          {
+         *              id:2,
+         *              name:"b",
+         *              age:23
+         *          }
+         *  初始虚拟dom
+         *       <li key={0}>a--18</li>
+         *       <li key={1}>b--23</li>
+         *  更新后的数据
+          */
+
+        class Person extends React.Component {
+            state = {
+                p: [
+                    {
+                        id: 0,
+                        name: "a",
+                        age: 18
+                    },
+                    {
+                        id: 1,
+                        name: "b",
+                        age: 23
+                    }
+                ]
+            }
+
+            addP = () => {
+                // this.
+                let { p } = this.state
+                let xiaowang = {
+                    id: p.length + 1,
+                    name: "c",
+                    age: 25
+                }
+                console.log([...p, ...xiaowang]);
+                this.setState({
+                    p: [p, ...xiaowang]
+                })
+            }
+
+            render() {
+                return (
+                    <div>
+                        <h2>人员信息,index作为索引</h2>
+                        <button onClick={this.addP}>添加小王</button>
+                        <ul>
+                            {
+                                this.state.p.map((item, index) => {
+                                    return <li key={index}>{item.name}--{item.age}
+                                        <input type="text" /></li>
+                                })
+                            }
+                        </ul>
+                        <hr />
+                        <h2>人员信息,id（数据的唯一标识）作为索引</h2>
+                        <ul>
+                            {
+                                this.state.p.map((item, index) => {
+                                    return <li key={item.id}>{item.name}--{item.age}
+                                        <input type="text" /></li>
+                                })
+                            }
+                        </ul>
+                    </div>
+                )
+            }
+        }
+
+        ReactDOM.render(<Person />, document.getElementById("root"))
+
+    </script>
+</body>
+
+</html>

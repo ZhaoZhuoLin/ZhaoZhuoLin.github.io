@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let arr1 = [1,2,3,4]
+    let arr2 = [4,5,6,7]
+    console.log(arr1)
+    console.log(...arr1)//展开一个数组
+    let arr3 =[...arr1,...arr2];//合并一个数组
+    console.log(arr3);
+
+    // 在函数中使用
+    function sum(...nums) {
+       return nums.reduce((preVal,curVal)=>{
+            return preVal+curVal
+        })
+    }
+    console.log(sum(1,2,3))
+
+    //构造字面量对象时使用展开语法
+    let person1 = {name:"zzl"}
+    let person2 = {...person1}
+    person1.name = 1;
+    console.log(person1);
+    console.log(person2);
+
+    //合并并添加属性
+    let person3={...person1,name:"3",address:"地球"}
+    console.log(person3);
+</script>
+</html>

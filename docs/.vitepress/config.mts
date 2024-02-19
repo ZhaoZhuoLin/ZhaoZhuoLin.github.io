@@ -10,16 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '😀主页', link: '/' },
-      { text: '🧭导航推荐', link: '/navigation/index' },
-       
-      { 
-        text: '🚝开源项目', 
-        items:[
-          {
-            text: 'cesium-example效果示例',
-            link: '/'
-          }
-      ]},
+      { text: '🧭编程导航', link: '/navigation/index' },
       { 
         text: '📘公众号', 
         items:[
