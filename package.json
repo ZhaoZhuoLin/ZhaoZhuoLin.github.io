@@ -16,5 +16,8 @@
   "devDependencies": {
     "echarts": "^5.4.3",
     "vitepress": "1.0.0-rc.32"
+  },
+  "dependencies": {
+    "vue": "^3.4.19"
   }
 }

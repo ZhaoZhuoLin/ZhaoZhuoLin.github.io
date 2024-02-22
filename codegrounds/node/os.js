@@ -16,13 +16,11 @@ console.log(os.homedir())
 console.log(os.arch())
 
 // CPU运行状态
-// console.log(os.cpus())/
+console.log(os.cpus())
 
 //获取网路配置
-console.log(os.networkInterfaces())
+// console.log(os.networkInterfaces())
 
-console.log(os.userInfo())
+// console.log(os.userInfo())
 
-console.log(os.version())
-
-
+// console.log(os.version())
