@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: CodeTime(代码时间)
+  name: CodeTime@
   image:
      alt: 代码时间
   actions:
