@@ -2,20 +2,18 @@
 layout: home
 
 hero:
-  name: CodeTime@
+  name: CodeTime
+  text: 代码时间
+  tagline: 前端知识实践&整理&分享
+
   image:
+     src: /home.png
      alt: 代码时间
   actions:
     - theme: brand
       text: 立即体验
       link: /browser/
-    - theme: docs
-      text: 知识图谱
-      link: /navigation/
-    - theme: docs
-      text: 资源导航
-      link: /navigation/
-
+    
 features:
   - icon: 💯 
     title: 前端编程工具链整理
