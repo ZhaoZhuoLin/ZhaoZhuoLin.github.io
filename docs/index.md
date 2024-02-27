@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 立即体验
-      link: /browser/
+      link: /
     
 features:
   - icon: 💯 
@@ -34,7 +34,3 @@ features:
     title: 知识是共享的
     details: 归纳一些相关工具和网站，提高效率
 ---
-<script setup>
-import chart from './chart/index.vue'
-</script>
-<!-- <chart/> -->
