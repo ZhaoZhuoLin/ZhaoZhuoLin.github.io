@@ -40,8 +40,8 @@ export const sidebar: DefaultTheme.Sidebar = [
       text: '启动npm run',
       link: '/node/run'
     }, {
-      text: '发布一个npm包',
-      link: '/node/publicnpm'
+      text: '使用verdaccio搭建npm私服',
+      link: '/node/使用verdaccio搭建npm私服'
     },
     {
       text: '渲染模式',
